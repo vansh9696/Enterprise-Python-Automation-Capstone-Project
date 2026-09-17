@@ -29,9 +29,9 @@ enterprise-automation-capstone/
 
 
 ⚙️ Installation & Setup
-Bash
+
 # Clone the repository
-git clone [https://github.com/vanshbalar012@gmail.com/enterprise-automation-capstone.git]
+git clone [https://github.com/vansh9696/enterprise-automation-capstone.git]
 cd enterprise-automation-capstone
 
 # Create & Activate Virtual Environment
