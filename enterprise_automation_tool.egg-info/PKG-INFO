@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: enterprise-automation-tool
+Version: 1.0.0
+Summary: Enterprise Automated PDF Report Generator and Task Scheduler CLI
+Author: Vansh Balar
+Requires-Dist: click>=8.1.0
+Requires-Dist: reportlab>=4.0.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: apscheduler>=3.10.0

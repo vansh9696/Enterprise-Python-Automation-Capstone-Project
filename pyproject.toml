@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enterprise-automation-tool"
+version = "1.0.0"
+description = "Enterprise Automated PDF Report Generator and Task Scheduler CLI"
+authors = [{ name = "Vansh Balar" }]
+dependencies = [
+    "click>=8.1.0",
+    "reportlab>=4.0.0",
+    "pandas>=2.0.0",
+    "requests>=2.31.0",
+    "apscheduler>=3.10.0"
+]
+
+[project.scripts]
+auto-report = "app.cli:cli"
